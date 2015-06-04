@@ -45,8 +45,8 @@ RUN useradd dev && \
     # chown -R dev: /home/dev
 
 # Set Environment Vars to use in build
-ENV GIT_USER_NAME "James Dean"
-ENV GIT_USER_EMAIL "james.p.dean.jr@gmail.com"
+ENV GIT_USER_NAME ""
+ENV GIT_USER_EMAIL ""
 ENV USER dev
 
 # Configure Git User/Email -> after copying gitconfig dotfiles
