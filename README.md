@@ -7,6 +7,13 @@
 This repo contains the Dockerfile and dotfiles used to create a the `base-devbox` 
 image hosted on [docker hub](https://registry.hub.docker.com/u/defiantbidet/base-devbox/)
 
+## Setup
+In order to configure git properly when building an image from this project's 
+Dockerfile, you will need to change the following in the Dockerfile.  
+
+`ENV GIT_USER_NAME ""`  
+`ENV GIT_USER_EMAIL ""`  
+
 ## Contents
 
  - `Dockerfile`  
